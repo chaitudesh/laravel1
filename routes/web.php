@@ -28,5 +28,5 @@ Route::view('noaccess', 'noaccess');
 Route::get('/users', 'App\Http\Controllers\UsersController@index');
 // Route::get('users', 'App\Http\Controllers\UsersController@getData');
 
-Route::view('store', 'storeuser');
+// Route::view('store', 'storeuser');
 Route::post('/storedata', 'App\Http\Controllers\UsersController@storedata');
